@@ -1,52 +1,71 @@
-class Plan{
-    private string name; //Название учебного плана
-    private int duration; //Время обучения
-    private int yearStart; //Начало учебного года
-    private int yearEnd; //Окончание учебного года
-    
-    public Program Program {get;set;}; //Связь с блоком образовательной программой
-    public student; //Связь с блоком студент
+
+// Class "EducationalInstitution" (Учебное заведение)
+public class EducationalInstitution
+{
+    public string Name { get; set; }
+    public string Address { get; set; }
+    // Other properties as needed
+
+    // Relationships
+    public ICollection<EducationalPlan> EducationalPlans { get; set; }
 }
 
+// Class "EducationalPlan" (Учебный план)
+public class EducationalPlan
+{
+    public string Name { get; set; }
+    public int Duration { get; set; }
+    public int StartYear { get; set; }
+    public int EndYear { get; set; }
 
-class Subject{
-    private string name; //Название дисциплины
-    private string description; //Описание
-    private int hours; //Количество академических часов
-    private string[] prerequisites; //Пререквизиты, Другие дисциплины, которые необходимо успешно завершить 
-    
-    public Teacher Teacher {get;set;} //Связь с блоком преподаватель
-    public Plan Plan {get;set;}; //Связь с блоком учебный план
+    // Relationships
+    public EducationalProgram EducationalProgram { get; set; }
+    public ICollection<Discipline> Disciplines { get; set; }
+    public ICollection<Student> Students { get; set; }
 }
 
-class Program{
-    private string name; // Название образовательной программы
-    private string description;//Описание  образовательной программы
-    private string levelEducation; //Оценка уровня образовательной программы
-    
-    public university; //Связь с блоком учебное заведение
-    public plan; //Связь с блоком учебный план
+// Class "Discipline" (Дисциплина)
+public class Discipline
+{
+    public string Name { get; set; }
+    public string Description { get; set; }
+    public int AcademicHours { get; set; }
+    public string Prerequisites { get; set; }
+
+    // Relationships
+    public Teacher Teacher { get; set; }
+    public EducationalPlan EducationalPlan { get; set; }
 }
 
-class Student{
-    private string name;
-    private string lastname;
-    private DateTime birth;
-    private string contacts;
+// Class "EducationalProgram" (Образовательная программа)
+public class EducationalProgram
+{
+    public string Name { get; set; }
+    public string Description { get; set; }
+    public string EducationLevel { get; set; }
+
+    // Relationships
+    public EducationalInstitution EducationalInstitution { get; set; }
+    public ICollection<EducationalPlan> EducationalPlans { get; set; }
 }
 
-class University{
-    private string name;
-    private string address;
-    private string address;
+// Class "Teacher" (Преподаватель)
+public class Teacher
+{
+    public string Name { get; set; }
+    // Other properties as needed
+
+    // Relationships
+    public ICollection<Discipline> TaughtDisciplines { get; set; }
 }
 
-class Teacher{
-    private string name;
-    private string lastname;
-    private string contacts;
+// Class "Student" (Студент)
+public class Student
+{
+    public string Name { get; set; }
+    // Other properties as needed
+
+    // Relationships
+    public EducationalPlan EducationalPlan { get; set; }
 }
-
-
-
 
