@@ -1,0 +1,14 @@
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\bin\Debug\net6.0\Pidzha.Domain.deps.json
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\bin\Debug\net6.0\Pidzha.Domain.dll
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\bin\Debug\net6.0\Pidzha.Domain.pdb
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\obj\Debug\net6.0\Pidzha.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\obj\Debug\net6.0\Pidzha.Domain.AssemblyInfoInputs.cache
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\obj\Debug\net6.0\Pidzha.Domain.AssemblyInfo.cs
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\obj\Debug\net6.0\Pidzha.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\obj\Debug\net6.0\Pidzha.Domain.dll
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\obj\Debug\net6.0\refint\Pidzha.Domain.dll
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\obj\Debug\net6.0\Pidzha.Domain.pdb
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\obj\Debug\net6.0\ref\Pidzha.Domain.dll
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\bin\Debug\net6.0\Pidzha.Domain.runtimeconfig.json
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\obj\Debug\net6.0\Pidzha.Domain.csproj.AssemblyReference.cache
+C:\Users\tat64\source\repos\Pidzha\Pidzha.Domain\obj\Debug\net6.0\Pidzha.Domain.genruntimeconfig.cache
